@@ -3,10 +3,7 @@
 #
 #        Homework 1, problem 6
 #
-
 from sympy import *
-#from sympy.physics.quantum import Commutator, Dagger, Operator
-#from sympy.physics.quantum.operator import DifferentialOperator
 
 #==============================================================================
 # time-independent symbolic variables
@@ -17,8 +14,6 @@ x, t= symbols(' x t ', real=True)
 n, m  = symbols('n m', integer=True, positive=True)  # note this must be integer, not int
 M = symbols(' M ',real=True, positive= True)
 h_bar = symbols(' h_bar ',real=True,positive=true)
-#f = Function('f')
-#d = DifferentialOperator(Derivative(f(x), x), f(x))
 
 #==============================================================================
 # time-independent wave functions
