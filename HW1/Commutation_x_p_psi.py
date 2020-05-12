@@ -15,6 +15,7 @@ n, m  = symbols('n m', integer=True, positive=True)  # note this must be integer
 M = symbols(' M ',real=True, positive= True)
 h_bar = symbols(' h_bar ',real=True,positive=true)
 
+# food
 #==============================================================================
 # time-independent wave functions
 #==============================================================================
